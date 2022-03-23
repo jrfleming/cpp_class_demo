@@ -3,7 +3,7 @@
 // main driver is main.cpp
 
 #include <string>
-#incldue <iostream>
+#include <iostream>
 #include "Bird.h"
 
 using namespace std;
@@ -11,6 +11,8 @@ using namespace std;
 int main(){
     cout << "Tweet, Tweet, Tweet " << endl;
 
+    Bird robin("Robin");
+    cout << robin.get_seeds() << endl;
     return 0;
 }
 
